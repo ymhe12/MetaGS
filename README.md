@@ -1,4 +1,4 @@
-# GS-Phong: Meta-Learned 3D Gaussians for Relightable Novel View Synthesis 
+# MetaGS: A Meta-Learned Gaussian-Phong Model for Out-of-Distribution 3D Scene Relighting
 
 Yumeng He,  [Yunbo Wang](https://wyb15.github.io/)<sup>†</sup>, [Xiaokang Yang](https://scholar.google.com/citations?user=yDEavdMAAAAJ&hl=zh-CN)<br>
 

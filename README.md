@@ -11,14 +11,14 @@ This repository contains the official code for our paper: **MetaGS: A Meta-Learn
 
 1. Create an environment
     ```bash
-    conda create -n gs-phong python=3.10
-    conda activate gs-phong
+    conda create -n metags python=3.10
+    conda activate metags
     ```
     
 2. Install dependencies
     ```bash
-    git clone https://github.com/ymhe12/GS-Phong.git
-    cd GS-Phong
+    git clone https://github.com/ymhe12/MetaGS.git
+    cd MetaGS
     git submodule update --init --recursive
     pip install -r requirements.txt
     pip install -e submodules/depth-diff-gaussian-rasterization
@@ -75,11 +75,14 @@ If you find our work helps, please cite our paper:
 
 ```bibtex
 
-@article{he2024gs,
-  title={GS-Phong: Meta-Learned 3D Gaussians for Relightable Novel View Synthesis},
-  author={He, Yumeng and Wang, Yunbo and Yang, Xiaokang},
-  journal={arXiv preprint arXiv:2405.20791},
-  year={2024}
+@misc{he2025metagsmetalearnedgaussianphongmodel,
+      title={MetaGS: A Meta-Learned Gaussian-Phong Model for Out-of-Distribution 3D Scene Relighting}, 
+      author={Yumeng He and Yunbo Wang and Xiaokang Yang},
+      year={2025},
+      eprint={2405.20791},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV},
+      url={https://arxiv.org/abs/2405.20791}, 
 }
 
 ```
